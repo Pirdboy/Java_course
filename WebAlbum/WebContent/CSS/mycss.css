@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Body*/
+body {font:12px Tahoma;
+		margin:0px;
+		text-align:center;
+		background:#FFF;
+	}
+/*总容器*/
+#container {
+			margin:10px auto;
+			display:block;
+			}
+/*头部*/
+#Header {width:1080px;
+		margin:5px auto;
+		height:270px;
+		background:url("../image/Header_bg.jpg");
+		position:relative;}
+#Header h1{
+			font-family: Arial,Helvetica,sans-serif;
+			font-size:5.0em;
+			color:#EC505E;
+			font-weight:bold;
+			display:block;
+			left:337px;
+			top:30px;
+			position:absolute;
+		}
+#Header ul{list-style:none;margin:0px;
+			font-size:2.0em;
+			position:absolute;
+			left:422px;
+			top:207px;}
+
+#Header ul li{float:left;margin:0 10px;display:block;}
+
+.list_separate {width:1px;height:24px;background:#A5A5A5;}
+
+
+a.header:link,a.header:visited{font-size:1.0em;
+								text-decoration:none;
+								color:#5539B8;
+								}
+a.header:hover{font-size:1.0em;
+				text-decoration:none;
+				color:#C22B93;}
+a.header:active{text-decoration:underline;}
+
+/*主体*/
+#PageBody{width:1080px;
+			margin:5px auto;
+			height:700px;
+			position:relative;
+			background:url("../image/PageBody_bg.gif");
+			}
+/*主体:显示相册*/
+.DisplayAlbums{
+	overflow:hidden;
+	position:absolute;
+	left:30px;
+	top:5px;
+	table-layout: fixed;
+	border-spacing: 15px 30px;
+	border-style: dotted;
+	border-color: #1ACD39;
+}
+.DisplayAlbums td{
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	
+	border-style: inset;
+	/*border:0px;*/
+}
+.DisplayAlbums th{
+	color:#6282CD;
+	font-size: 2.9em;
+	text-align: center;
+	vertical-align: middle;
+	border:0px;
+}
+.DisplayAlbums p{
+	width:205px;
+}
+a.a1:link,a.a1:visited{font-size:2.5em;
+								text-decoration:none;
+								color:#EF33E0;
+								}
+a.a1:hover{font-size:2.5em;
+				text-decoration:none;
+				color:#44BBA1;}
+a.a1:active{text-decoration:underline;}
+
+a.a2:link,a.a2:visited{font-size:1.25em;
+								text-decoration:none;
+								color:#5539B8;
+								}
+a.a2:hover{font-size:1.25em;
+				text-decoration:none;
+				color:#C22B93;}
+a.a2:active{text-decoration:underline;}
+/*主体:添加相册*/
+.addAlbum_h1{
+	position:absolute;
+	color:#6282CD;
+	font-size: 3.2em;
+	top:11px;
+	left:495px;
+}
+.input_p1{
+	position:absolute;
+	color:#6282CD;
+	font-size: 2.1em;
+	top:168px;
+	left:297px;
+	
+}
+.input_p11{
+	position:absolute;
+	color:#6282CD;
+	top:161px;
+	left:441px;
+	
+}
+.input_p2{
+	position:absolute;
+	top:306px;
+	left:459px;
+	
+}
+.input_p3{
+	position:absolute;
+	top:306px;
+	left:575px;
+}
+/*主体:显示相片*/
+.DisplayPhotos{
+	position:absolute;
+	left:30px;
+	top:5px;
+	table-layout: fixed;
+	border-spacing: 15px 30px;
+	border-style: dotted;
+	border-color: #1ACD39;
+}
+.DisplayPhotos td{
+	overflow:hidden;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	
+	border-style: inset;
+	/*border:0px;*/
+}
+.DisplayPhotos th{
+	overflow:hidden;
+	color:#6282CD;
+	font-size: 2.9em;
+	text-align: center;
+	vertical-align: middle;
+	border:0px;
+}
+DisplayPhotos p{
+	width:205px;
+}
+p.PhotoName{
+	font-size:1.28em;
+}
+a.PhotoAction:link,a.PhotoAction.visited{
+	font-size:1.25em;
+	text-decoration:none;
+	color:#4D19CE;
+}
+a.PhotoAction:hover{
+	font-size:1.25em;
+	text-decoration:none;
+	color:#D33838;
+}
+a.PhotoAction:active{
+	text-decoration:underline;
+}
+/*主体:添加相片*/
+.addPhoto_h1{
+	position:absolute;
+	color:#6282CD;
+	font-size: 3.2em;
+	top:11px;
+	left:495px;
+}
+.addPhoto_p1{
+	position:absolute;
+	color:#6282CD;
+	font-size: 2.1em;
+	top:168px;
+	left:297px;
+	
+}
+.addPhoto_p2{
+	position:absolute;
+	color:#6282CD;
+	top:168px;
+	left:483px;
+	
+}
+.addPhoto_p3{
+	position:absolute;
+	top:306px;
+	left:459px;
+	
+}
+.addPhoto_p4{
+	position:absolute;
+	top:306px;
+	left:575px;
+}
+/*底部*/
+#Footer {width:1080px;
+		margin:5px auto;
+		height:80px;
+		background:#AAFFFF;
+		font-size:12px;
+		position:relative;}
+#Footer p{
+		font-size:1.5em;
+		font-family:"微软雅黑","黑体","宋体";
+		position:absolute;
+}
+p.footer_p1{
+	top:8px;
+	left:306px;
+}
+p.footer_p2{
+	top:32px;
+	left:369px;
+}
+a.footer_a:link,a.footer_a:visited{font-size:1.0em;
+								text-decoration:none;
+								color:#5539B8;
+								}
+a.footer_a:hover{font-size:1.0em;
+				text-decoration:none;
+				color:#C22B93;}
+a.footer_a:active{text-decoration:underline;}

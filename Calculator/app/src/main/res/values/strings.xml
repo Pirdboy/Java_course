@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pird自用计算器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hint">在此输入表达式</string>
+    <string name="result_hint">此处显示计算结果</string>
+    <string name="radian">弧度制</string>
+    <string name="degree">角度制</string>
+</resources>
